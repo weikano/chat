@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/main_nav_nearby" android:title="@string/nav_nearby" android:icon="@drawable/ic_nearby" />
+  <item android:id="@+id/main_nav_message" android:title="@string/nav_message" android:icon="@drawable/ic_message"/>
+  <item android:id="@+id/main_nav_match" android:title="@string/nav_match" android:icon="@drawable/ic_match"/>
+  <item android:id="@+id/main_nav_square" android:title="@string/nav_square" android:icon="@drawable/ic_square"/>
+  <item android:id="@+id/main_nav_profile" android:title="@string/nav_profile" android:icon="@drawable/ic_account"/>
+</menu>

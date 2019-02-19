@@ -7,7 +7,8 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'androidx.navigation.safeargs'
 
 apply plugin: 'io.fabric'
-
+apply plugin: 'io.objectbox'
+apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -17,6 +18,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -35,10 +37,15 @@ dependencies {
     implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0-beta02'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0-alpha01'
 
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.9@aar'){
         transitive = true
     }
+
+    implementation "io.objectbox:objectbox-android:$objectboxVersion"
+    implementation "io.objectbox:objectbox-kotlin:$objectboxVersion"
+    kapt "io.objectbox:objectbox-processor:$objectboxVersion"
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.2-alpha01'

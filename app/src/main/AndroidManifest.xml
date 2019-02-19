@@ -8,12 +8,14 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
-    <activity android:name=".MainActivity">
+    <activity android:name=".SplashActivity"
+      android:theme="@style/AppTheme.Splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name=".MainActivity"/>
     <meta-data
       android:name="io.fabric.ApiKey"
       android:value="4dc148084988d107a2a9de349542c5f49488d6a4"
