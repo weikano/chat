@@ -4,39 +4,138 @@
   "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
   "entities": [
     {
-      "id": "1:414277475691458392",
-      "lastPropertyId": "4:1677753649648872644",
-      "name": "Note",
+      "id": "2:8663386959251982100",
+      "lastPropertyId": "4:3288312782759033318",
+      "name": "Anchor",
       "properties": [
         {
-          "id": "1:1400422809523918518",
+          "id": "1:6795022777897622634",
           "name": "id"
         },
         {
-          "id": "2:615263867325888462",
-          "name": "text"
+          "id": "2:2168043864801524688",
+          "name": "signature"
         },
         {
-          "id": "3:8389289202643173925",
-          "name": "comment"
+          "id": "3:37474284619978426",
+          "name": "distance"
         },
         {
-          "id": "4:1677753649648872644",
+          "id": "4:3288312782759033318",
+          "name": "vip"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2586060093527932176",
+      "lastPropertyId": "6:2893306937756598157",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:1414450537848772831",
+          "name": "id"
+        },
+        {
+          "id": "2:5936944207100943616",
+          "name": "userId"
+        },
+        {
+          "id": "3:6060958205932549528",
+          "name": "avatar"
+        },
+        {
+          "id": "4:1517274635869853537",
+          "name": "nickname"
+        },
+        {
+          "id": "5:5956241471434197053",
+          "name": "signature"
+        },
+        {
+          "id": "6:2893306937756598157",
+          "name": "age"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:79883182889931338",
+      "lastPropertyId": "7:1451711046049985048",
+      "name": "VideoChatHistory",
+      "properties": [
+        {
+          "id": "1:7790049168174138998",
+          "name": "id"
+        },
+        {
+          "id": "2:6267157014927228175",
+          "name": "userId"
+        },
+        {
+          "id": "3:5987218002154731075",
+          "name": "nickname"
+        },
+        {
+          "id": "4:3065299875323826335",
+          "name": "url"
+        },
+        {
+          "id": "5:3401206062921411182",
           "name": "time"
+        },
+        {
+          "id": "6:8530519015569909160",
+          "name": "status"
+        },
+        {
+          "id": "7:1451711046049985048",
+          "name": "callType"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:1864020874102164607",
+      "lastPropertyId": "4:5791041090215436942",
+      "name": "VisitorHistory",
+      "properties": [
+        {
+          "id": "1:6590372891537867735",
+          "name": "id"
+        },
+        {
+          "id": "2:5469365880657838232",
+          "name": "date"
+        },
+        {
+          "id": "3:2558789405482255358",
+          "name": "avatar"
+        },
+        {
+          "id": "4:5791041090215436942",
+          "name": "nickname"
         }
       ],
       "relations": []
     }
   ],
-  "lastEntityId": "1:414277475691458392",
+  "lastEntityId": "5:1864020874102164607",
   "lastIndexId": "0:0",
   "lastRelationId": "0:0",
   "lastSequenceId": "0:0",
   "modelVersion": 4,
   "modelVersionParserMinimum": 4,
-  "retiredEntityUids": [],
+  "retiredEntityUids": [
+    414277475691458392
+  ],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [],
+  "retiredPropertyUids": [
+    1400422809523918518,
+    615263867325888462,
+    8389289202643173925,
+    1677753649648872644
+  ],
   "retiredRelationUids": [],
   "version": 1
 }

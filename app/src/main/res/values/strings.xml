@@ -5,4 +5,12 @@
   <string name="nav_match">匹配</string>
   <string name="nav_square">广场</string>
   <string name="nav_profile">我的</string>
+  <string name="label_wallet">我的钱包</string>
+  <string name="label_account">账户明细</string>
+  <string name="label_video">视频记录</string>
+  <string name="label_visitor">访客记录</string>
+  <string name="label_share">分享有礼</string>
+  <string name="label_cservice">客户帮助</string>
+  <string name="label_gift">免费福利</string>
+  <string name="label_recommend">推荐</string>
 </resources>

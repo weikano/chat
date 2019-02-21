@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/bottom_nav"
+  app:startDestination="@+id/main_nav_nearby">
+  <fragment android:id="@+id/main_nav_nearby"
+    android:name="com.wkswind.chat.ui.NearbyFragment"/>
+  <fragment android:name="com.wkswind.chat.ui.MessageFragment"
+    android:id="@+id/main_nav_message"/>
+  <fragment android:id="@+id/main_nav_profile"
+    android:name="com.wkswind.chat.ui.MineFragment"/>
+
+</navigation>

@@ -11,5 +11,10 @@
   <style name="AppTheme.Splash">
     <item name="android:windowBackground">@drawable/ic_splash</item>
   </style>
+  <style name="setting_label">
+    <item name="android:padding">@dimen/setting_item</item>
+    <item name="android:gravity">start|center_vertical</item>
+    <item name="android:drawablePadding">12dp</item>
+  </style>
 
 </resources>
