@@ -9,6 +9,9 @@ import com.wkswind.chat.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_mine.*
 
 class MineFragment: BaseFragment() {
+  companion object {
+    fun newInstance():MineFragment = MineFragment()
+  }
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
     return inflater.inflate(R.layout.fragment_mine, container, false)
   }
